@@ -14,5 +14,10 @@ fields:
   config:
     required: false
   label: description
+- name: keywords
+  type: tag_list
+  default: []
+  label: keywords
+  hidden: true
 pages:
 - docs/about.md
